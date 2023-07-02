@@ -1,0 +1,14 @@
+.nav-item-text {
+  font-size: 18px;
+}
+.navbar-nav {
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}

@@ -1,0 +1,65 @@
+.html,
+.body {
+  /* background:#118020; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mainheading{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+   color:'#000';
+}
+
+.text{
+  color: #000;
+  font-size: 24px;
+}
+
+.textbox{
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  }
+
+.thundericon{
+font-size: 45px;
+}
+
+@media (max-width: 420px) {
+  .text {
+      font-size: 18px;
+      margin-left: 0px;
+  }
+  .textbox{
+    margin-left: 0px;
+  }
+  .mainheading{
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .thundericon{
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+.bg {
+  background-image: url("Group.png");
+  /* max-width: 1400px; */
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

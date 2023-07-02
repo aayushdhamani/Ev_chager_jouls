@@ -1,0 +1,143 @@
+/* .header{
+    margin-top: 40px;
+    background-image: url('pig.png');
+    height: 391px;
+    width: 1278px;
+    margin-left: 150px;
+} */
+
+.header{
+    background-image: linear-gradient(120deg,#3e32a8,#e310c7);
+    height: 25rem;
+    width: 92.5%;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+
+
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: 'Lora' , serif;
+    color: white;
+    margin-left: 70px;
+    
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 34%;
+    font-size: 30px;
+    /* color: white; */
+}
+
+.headerTitleLg{
+    color: white;
+    position: absolute;
+    top: 20%;
+    font-size: 64px;
+
+}
+
+/* .headerImg{
+    width: 100%;
+    height: 391px;
+    margin-top: 20px;
+    object-fit: cover;
+
+} */
+
+.searchBox{
+    margin-top: 70px;
+    margin-left: 110px;
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.searchText{
+    width: 280px;
+    border-radius: 30px ;
+    height: 40px;
+    padding: 20px;
+    
+}
+
+.searchBtn{
+   
+    color: black;
+    position: absolute;
+    
+    place-items: center;
+    margin-left: 248px;
+    
+    
+}
+
+.ass{
+   
+   border-radius: 30px;
+   width: 200px;
+   height: 40px;
+   padding: 5px;
+   margin-left: 810px;
+   
+}
+
+/* .dsa{
+    margin-top: 40px;
+    margin-left: 38px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    
+    padding: 40px;
+    height: 600px;
+} */
+
+.dsa{
+    height: 605px;
+    padding: 20px;
+    margin-top: 40px; 
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+    
+    /* transition: transform 500ms ease;
+    cursor: pointer; */
+    
+}
+
+.joji{
+    margin-top: 40px;
+    /* height: 250px; */
+    margin-left: 100px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+   
+
+}
+
+.joji1{
+    /* height: 250px; */
+    margin-top: 30px;
+    margin-left: 100px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+    
+.joji1:hover{
+    transform: scale(1.05);
+}
+.joji:hover{
+    transform: scale(1.05);
+}
+
+/* .dsa:hover{
+    transform: scale(1.05);
+}  */
